@@ -1,0 +1,18 @@
+.indicator {
+    background: #FF7761;
+    color: white;
+    width: 21px;
+    height: 21px;
+    font-size: 21px;
+    line-height: 21px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 2px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.symbol {
+    position: relative;
+    top: -2px;
+}

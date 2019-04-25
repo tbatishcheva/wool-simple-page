@@ -1,0 +1,22 @@
+.container {
+    cursor: pointer;
+}
+
+.checkboxInput {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.controlIndicator {
+    height: 18px;
+    width: 18px;
+    background: #FFFFFF;
+    border: 1px solid #D6D6D6;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.checkboxInput:checked ~ .controlIndicator {
+    background: #FF7761;
+}

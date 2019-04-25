@@ -1,0 +1,10 @@
+.contentWrapper {
+    margin-right: 115px;
+}
+
+.content {
+    grid-area: content;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 54px;
+}

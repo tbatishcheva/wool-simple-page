@@ -1,0 +1,15 @@
+.submenuItem {
+    margin-bottom: 10px;
+}
+
+.submenuItem:last-child {
+    margin-bottom: 0;
+}
+
+.submenuItemActive {
+    color: #FC5F4F;
+}
+
+.title {
+    padding-left: 32px;
+}

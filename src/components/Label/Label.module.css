@@ -1,0 +1,37 @@
+.label {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+    text-align: center;
+    box-shadow: 4px 2px 10px rgba(0, 0, 0, 0.06);
+    border-radius: 16px;
+}
+
+.isLarge {
+    padding: 9px 25px;
+}
+
+.isSmall {
+    font-size: 13px;
+    line-height: 18px;
+    padding: 0px 5px;
+}
+
+.green {
+    background: #2BB2AC;
+}
+
+.red {
+    background: #FF7761;
+}
+
+.label a:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.label a {
+    color: #FFFFFF;
+    text-decoration: none;
+}

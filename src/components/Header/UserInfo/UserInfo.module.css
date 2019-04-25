@@ -1,0 +1,21 @@
+.userInfo {
+    vertical-align: middle;
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+    margin-left: 43px;
+}
+
+.signOut {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: rgba(0, 0, 0, 0.24);
+}
+
+.img {
+    margin-left: 30px;
+}

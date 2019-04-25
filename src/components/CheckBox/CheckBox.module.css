@@ -1,0 +1,43 @@
+.container {
+    cursor: pointer;
+}
+
+.controlIndicator {
+    height: 22px;
+    width: 22px;
+    background: white;
+    border-radius: 50%;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border: 1px solid #2BB2AC;
+}
+
+.controlIndicator:after {
+    position: relative;
+    left: 8px;
+    top: 4px;
+
+    width: 3px;
+    height: 8px;
+
+    border: solid #ffffff;
+    border-width: 0 2px 2px 0;
+
+    content: '';
+    display: none;
+
+    transform: rotate(45deg);
+}
+
+.checkboxInput {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.checkboxInput:checked ~ .controlIndicator {
+    background: #2BB2AC;
+}
+
+.checkboxInput:checked ~ .controlIndicator:after {
+    display: block;
+}
